@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  background-color: gray;
+  position: fixed;
+}
+
+.logo {
+  width: 100px;
+}
+
+li:hover {
+  cursor: pointer;
+  color: orange;
+}
