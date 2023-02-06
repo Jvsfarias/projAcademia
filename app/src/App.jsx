@@ -1,11 +1,12 @@
 import './App.css'
 
-function App() {
+export default function App() {
   return (
-    <div >
+    <div>
      <h1>Testando</h1>
+     
     </div>
   )
 }
 
-export default App
+
