@@ -1,11 +1,14 @@
-.container {
+.nav {
   display: flex;
-  background-color: gray;
+  background-color: #171718;
   position: fixed;
+  width: 100%;
+  padding: 0.4rem 7rem;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 100px;
+  width: 80px;
 }
 
 li:hover {

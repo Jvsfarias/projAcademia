@@ -3,14 +3,14 @@ import logo from "../../assets/atlantePng.png";
 
 export default function NavBar() {
   return (
-    <div className="container">
+    <div className="nav">
       <img src={logo} alt="Logo" className="logo" />
-      <ul className="flex text-white gap-8 items-center">
-        <li>Inicio</li>
-        <li>Planos</li>
-        <li>Localização</li>
-        <li>Personais</li>
-        <li>Contato</li>
+      <ul className="flex text-white gap-8 items-center text-lg">
+        <li>INICIO</li>
+        <li>PLANOS</li>
+        <li>LOCALIZAÇÃO</li>
+        <li>PROFESSORES</li>
+        <li>CONTATO</li>
       </ul>
     </div>
   );
