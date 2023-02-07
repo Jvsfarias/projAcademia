@@ -20,7 +20,7 @@ function menuShow(){
       <div className="menu-btn"><i className="fa fa-bars fa-2x" onClick={menuShow}></i></div>
 
       <ul className="flex text-white gap-8 items-center text-sm">
-        <li><a href="#">INCIO</a></li>
+        <li><a href="#">INICIO</a></li>
         <li><a href="#">PLANOS</a></li>
         <li><a href="#">LOCALICAÇÃO</a></li>
         <li><a href="#">PROFESSORES</a></li>
