@@ -1,5 +1,10 @@
 import "./NavBar.css";
 import logo from "../../assets/atlantePng.png";
+import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
+import HomeIcon from '@mui/icons-material/Home';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import SchoolIcon from '@mui/icons-material/School';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import { useState } from "react";
 
 export default function NavBar() {
@@ -19,18 +24,23 @@ export default function NavBar() {
         } flex text-white gap-8 items-center text-sm`}
       >
         <li>
-          <a href="#">INICiO</a>
+          <HomeIcon className="iconNav"/>
+          <a href="#">INICIO</a>
         </li>
         <li>
+          <FitnessCenterIcon className="iconNav"/>
           <a href="#">PLANOS</a>
         </li>
         <li>
-          <a href="#">LOCALICAÇÃO</a>
+          <LocationOnIcon className="iconNav"/>
+          <a href="#">LOCALIZAÇÃO</a>
         </li>
         <li>
+          <SchoolIcon className="iconNav"/>
           <a href="#">PROFESSORES</a>
         </li>
         <li>
+          <WhatsAppIcon className="iconNav"/>
           <a href="#">CONTATO</a>
         </li>
       </ul>
