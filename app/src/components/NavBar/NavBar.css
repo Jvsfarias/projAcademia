@@ -1,11 +1,12 @@
 .nav {
   display: flex;
-  background-color: #171718;
+  background: rgba(17, 17, 16, 0.7);
   position: fixed;
   width: 100%;
-  padding: 0.4rem 7rem;
+  padding: 0.4rem 10rem;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
 
 .logo {
@@ -14,29 +15,29 @@
 
 li:hover {
   cursor: pointer;
-  color: orange;
+  color: #db7119;
 }
 
-.nav .menu-btn i{
+.nav .menu-btn i {
   color: #fff;
   cursor: pointer;
   display: none;
 }
 
-ul li .iconNav{
-  display:none;
+ul li .iconNav {
+  display: none;
 }
 
-@media(max-width: 920px){
-  .nav{
+@media (max-width: 920px) {
+  .nav {
     padding: 0.4rem 2rem;
   }
-  
-  .nav .menu-btn i{
+
+  .nav .menu-btn i {
     display: block;
   }
 
-  .nav ul{
+  .nav ul {
     position: fixed;
     top: 55px;
     left: -100%;
@@ -48,21 +49,21 @@ ul li .iconNav{
     transition: all 0.3s ease;
   }
 
-  .nav ul.open{
+  .nav ul.open {
     left: 0;
   }
 
-  .nav ul li{
+  .nav ul li {
     width: 100%;
     margin: 50px 0;
   }
 
-  ul li .iconNav{
-  display:inline-block;
-  margin-right: 10px;
+  ul li .iconNav {
+    display: inline-block;
+    margin-right: 10px;
   }
 
-  ul li a{
-  font-size: 15px;
+  ul li a {
+    font-size: 15px;
   }
 }
