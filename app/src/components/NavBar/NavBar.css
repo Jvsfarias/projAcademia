@@ -3,7 +3,7 @@
   background: rgba(17, 17, 16, 0.7);
   position: fixed;
   width: 100%;
-  padding: 0.4rem 10rem;
+  padding: 0.4rem 7rem;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
@@ -24,11 +24,23 @@ li:hover {
   display: none;
 }
 
+.aulaGratis {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #db7119;
+}
+
+.aulaGratis:hover {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: white;
+}
+
 ul li .iconNav {
   display: none;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 940px) {
   .nav {
     padding: 0.4rem 2rem;
   }
