@@ -5,7 +5,7 @@ export default function ScreenOne() {
     <div>
       <div className="imagem" />
       <motion.div className="marketing text-white inline-block " initial={{ x: "-100%" }}
-      animate={{ x: 0 }} transition={{ duration: 1.2 }}>
+      animate={{ x: 0 }} transition={{ duration: 1.4 }}>
         <h1 className="topText">ESCOLHA A</h1>
         <h1 className="topText">ACADEMIA QUE</h1>
         <h1 className="lastText">VOCÊ MERECE!</h1>

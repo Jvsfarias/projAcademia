@@ -1,0 +1,12 @@
+
+@media(max-width: 840px){
+    .secondSection{
+        display:flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .secondSection .textsScreenTwo{
+        width:80vw;
+    }
+}
