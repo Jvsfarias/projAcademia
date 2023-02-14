@@ -1,3 +1,8 @@
-.screen4{
-    height: 150vh;
-}
+@media (max-width: 850px) {
+  .titulo {
+    font-size: 30px !important;
+  }
+  .linhasTopPlano {
+    margin: auto 2rem !important;
+  }
+} ;
