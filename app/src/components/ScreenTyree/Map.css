@@ -1,0 +1,18 @@
+.map {
+  height: 50vh;
+  width: 50vw;
+}
+
+@media (max-width: 950px) {
+  .map {
+    width: 60vw !important;
+    height: 40vh !important;
+  }
+}
+
+@media (max-width: 650px) {
+  .map {
+    width: 80vw !important;
+    height: 30vh !important;
+  }
+}

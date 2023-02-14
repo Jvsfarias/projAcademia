@@ -1,12 +1,11 @@
+@media (max-width: 900px) {
+  .secondSection {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 
-@media(max-width: 840px){
-    .secondSection{
-        display:flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .secondSection .textsScreenTwo{
-        width:80vw;
-    }
+  .secondSection .textsScreenTwo {
+    width: 80vw;
+  }
 }

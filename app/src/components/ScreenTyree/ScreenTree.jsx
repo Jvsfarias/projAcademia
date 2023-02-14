@@ -1,10 +1,20 @@
-import Map from "./Map"
-export default function ScreenTree(){
-    return(
-        <div className="flex flex-col items-center gap-7 mt-24 bg-[#303030] p-9">
-            <h1 className="font-black text-4xl text-white tracking-wider">ONDE ESTAMOS</h1> 
-            <Map/>
+import { useEffect } from "react";
+import Map from "./Map";
+import "./ScreenTree.css";
+export default function ScreenTree() {
+  return (
+    <section className="flex flex-col items-center gap-7 mt-24 p-9 bg-neutral-900">
+      <div className="flex items-center font-black text-[2rem] tracking-wider gap-2 text-slate-200">
+        <div className="w-[16vw] h-[1px] border-[1px] border-orangeProject">
+          {" "}
         </div>
-        
-    )
+        <span className="textosScreenTree font-thin">NOSSA </span>
+        <span className="textosScreenTree">LOCALIZAÇÃO</span>
+        <div className="w-[16vw] h-[1px] border-[1px] border-orangeProject">
+          {" "}
+        </div>
+      </div>
+      <Map />
+    </section>
+  );
 }
