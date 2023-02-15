@@ -1,39 +1,52 @@
 import "./ScreenFour.css";
-import CardPlano from "./CardPlano";
+import Card from "./Card";
+import img1 from "../../assets/fotoCard1.jpg";
+import img2 from "../../assets/fotoCard2.jpg";
+import img3 from "../../assets/fotoCard3.jpg";
+
 export default function ScreenFour() {
-  const textosPlanos = {
-    anual:
-      "*R$60,00 preço médio mensal/anual para uma atividade. Forma de pagamento: Em 12 vezes no cheque, sendo a 1a à vista, ou em 10 vezes, sendo entrada à vista mais o restante dividido em 9 vezes no cartão de crédito.",
+  const tipo = {
+    anual: "ANUAL",
+    trimestral: "TRIMESTRAL",
+    mensal: "MENSAL",
+  };
 
-    trimestral:
-      "*R$65,00 preço médio mensal/anual para uma atividade. Forma de pagamento: Em 12 vezes no cheque, sendo a 1a à vista, ou em 10 vezes, sendo entrada à vista mais o restante dividido em 9 vezes no cartão de crédito.",
+  const textos = {
+    textoAnual:
+      "ANUAL ipsum dolor sit amet consectetur, adipisicing elit. Doloremque odio molestias ad ex aliquam laboriosam molestiae soluta unde at, magni quibusdam nisi harum delectus vitae nesciunt, sequi, aspernatur ut neque.",
+    textoTrimestral:
+      "TRIMESTRALrem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque odio molestias ad ex aliquam laboriosam molestiae soluta unde at, magni quibusdam nisi harum delectus vitae nesciunt, sequi, aspernatur ut neque.",
+    textoMensal:
+      "MENSAL ipsum dolor sit amet consectetur, adipisicing elit. Doloremque odio molestias ad ex aliquam laboriosam molestiae soluta unde at, magni quibusdam nisi harum delectus vitae nesciunt, sequi, aspernatur ut neque.",
+  };
 
-    mensal:
-      "*R$70,00 preço médio mensal/anual para uma atividade. Forma de pagamento: Em 12 vezes no cheque, sendo a 1a à vista, ou em 10 vezes, sendo entrada à vista mais o restante dividido em 9 vezes no cartão de crédito.",
+  const preco = {
+    precoAnual: "R$60,00",
+    precoTrimestral: "R$65,00",
+    precoMensal: "R$70,00",
   };
   return (
-    <div className="screen4 bg-orangeProject">
-      <div className="linhasTopPlano text-[#12100E] flex items-center justify-between mx-[7rem] pt-[3rem]">
-        <div className="border-[1px] w-[40%] border-black "></div>
-        <h1 className="titulo font-black text-4xl">PLANOS</h1>
-        <div className="border-[1px] w-[40%] border-black"></div>
+    <div className="py-[100px]">
+      <div className="cards flex justify-center gap-7">
+        <Card
+          tipo={tipo.anual}
+          imagem={img1}
+          texto={textos.textoAnual}
+          preco={preco.precoAnual}
+        />
+        <Card
+          tipo={tipo.trimestral}
+          imagem={img2}
+          texto={textos.textoTrimestral}
+          preco={preco.precoTrimestral}
+        />
+        <Card
+          tipo={tipo.mensal}
+          imagem={img3}
+          texto={textos.textoMensal}
+          preco={preco.precoMensal}
+        />
       </div>
-
-      <CardPlano
-        valor="60,00*"
-        tipoPlano="ANUAL -"
-        texto={textosPlanos.anual}
-      />
-      <CardPlano
-        valor="65,00*"
-        tipoPlano="TRIMESTRAL -"
-        texto={textosPlanos.trimestral}
-      />
-      <CardPlano
-        valor="70,00*"
-        tipoPlano="MENSAL -"
-        texto={textosPlanos.mensal}
-      />
     </div>
   );
 }

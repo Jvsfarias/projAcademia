@@ -1,8 +1,10 @@
-@media (max-width: 850px) {
-  .titulo {
-    font-size: 30px !important;
+.cards {
+  align-items: center;
+}
+
+@media (max-width: 1120px) {
+  .cards {
+    flex-direction: column;
+    justify-content: center;
   }
-  .linhasTopPlano {
-    margin: auto 2rem !important;
-  }
-} ;
+}

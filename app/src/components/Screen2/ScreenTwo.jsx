@@ -2,7 +2,7 @@ import "./ScreenTwo.css";
 import aboutImg from "../../assets/modeloAbout.png";
 export default function ScreenTwo() {
   return (
-    <div className="secondSection flex justify-center gap-[1rem] mt-14">
+    <div className="secondSection flex justify-center gap-[1rem] py-14">
       <img src={aboutImg} alt="Pessoa Treinando" className="w-[500px]" />
       <div className="textsScreenTwo flex-col w-2/5 mt-4">
         <h1 className="font-black text-4xl text-orangeProject tracking-wider">
