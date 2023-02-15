@@ -8,3 +8,9 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 620px) {
+  .textosPlanos {
+    font-size: 24px !important;
+  }
+}

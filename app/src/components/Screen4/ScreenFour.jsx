@@ -27,6 +27,14 @@ export default function ScreenFour() {
   };
   return (
     <div className="py-[100px]">
+      <div className="flex w-[80%] justify-center mx-auto mb-20 items-center">
+        <div className="w-[22vw] h-[1px] border-[1px] border-black"> </div>
+        <h1 className="flex gap-3">
+          <span className="textosPlanos font-thin text-3xl">NOSSOS</span>
+          <span className="textosPlanos font-black text-3xl">PLANOS</span>
+        </h1>
+        <div className="w-[22vw] h-[1px] border-[1px] border-black"> </div>
+      </div>
       <div className="cards flex justify-center gap-7">
         <Card
           tipo={tipo.anual}
