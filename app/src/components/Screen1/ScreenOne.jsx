@@ -7,8 +7,8 @@ export default function ScreenOne() {
       <motion.div
         className="marketing text-white inline-block "
         initial={{ x: "-100%" }}
-        whileInView={{ x: 0 }}
-        transition={{ duration: 1.7 }}
+        animate={{ x: 0 }}
+        transition={{ duration: 1.4 }}
       >
         <h1 className="topText">ESCOLHA A</h1>
         <h1 className="topText">ACADEMIA QUE</h1>
