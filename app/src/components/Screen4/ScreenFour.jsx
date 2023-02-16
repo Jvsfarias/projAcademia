@@ -3,6 +3,7 @@ import Card from "./Card";
 import img1 from "../../assets/fotoCard1.jpg";
 import img2 from "../../assets/fotoCard2.jpg";
 import img3 from "../../assets/fotoCard3.jpg";
+import { motion } from "framer-motion";
 
 export default function ScreenFour() {
   const tipo = {
@@ -56,7 +57,7 @@ export default function ScreenFour() {
         />
       </div>
 
-      <div className="observacoes  w-[80%] mx-auto max-w-[1100px] text-[#575A5E] text-[17px] mt-14 text-center text-black">
+      <div className="observacoes  w-[80%] mx-auto max-w-[1100px]  text-[17px] mt-14 text-center text-black">
         <p>
           *Todos os planos, incluem as atividades de Musculação, FitDance, e
           aulas de Step!
