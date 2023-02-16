@@ -35,7 +35,7 @@ export default function ScreenFour() {
         </h1>
         <div className="w-[22vw] h-[1px] border-[1px] border-black"> </div>
       </div>
-      <div className="cards flex justify-center gap-7">
+      <div className="cards flex items-start justify-center gap-7">
         <Card
           tipo={tipo.anual}
           imagem={img1}
@@ -56,7 +56,7 @@ export default function ScreenFour() {
         />
       </div>
 
-      <div className="observacoes  w-[80%] mx-auto max-w-[1100px] text-[#575A5E] text-[17px] mt-14 text-center text-black">
+      <div className="observacoes  w-[80%] mx-auto max-w-[1100px]  text-[17px] mt-14 text-center text-black">
         <p>
           *Todos os planos, incluem as atividades de Musculação, FitDance, e
           aulas de Step!
