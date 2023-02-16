@@ -55,6 +55,13 @@ export default function ScreenFour() {
           preco={preco.precoMensal}
         />
       </div>
+
+      <div className="observacoes  w-[80%] mx-auto max-w-[1100px] text-[#575A5E] text-[17px] mt-14 text-center text-black">
+        <p>
+          *Todos os planos, incluem as atividades de Musculação, FitDance, e
+          aulas de Step!
+        </p>
+      </div>
     </div>
   );
 }

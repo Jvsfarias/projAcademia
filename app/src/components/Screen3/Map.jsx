@@ -13,7 +13,7 @@ export default function Map() {
   };
 
   return (
-    <div>
+    <div className="mapinha border-solid border-orangeProject border-4">
       {isLoaded ? (
         <GoogleMap mapContainerClassName="map" center={position} zoom={16}>
           <Marker position={position} />
