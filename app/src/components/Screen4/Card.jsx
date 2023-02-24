@@ -13,7 +13,7 @@ export default function Teste({ tipo, imagem, texto, preco }) {
         <span className="tracking-wider text-orangeProject">{tipo}</span>
       </h1>
       <img src={imagem} alt="foto" className="foto brightness-110" />
-      <div className="paragrafoPrincipal m-4 flex items-center gap-[100px]">
+      <div className="paragrafoPrincipal m-4 flex items-center gap-[80px]">
         <FitnessCenterIcon fontSize="medium" />
         <p className="text-xl ">
           {preco}/<span className="text-sm">Média</span>

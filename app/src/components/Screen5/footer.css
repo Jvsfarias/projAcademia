@@ -1,3 +1,21 @@
+.instaLogo {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.footer h1 {
+  font-family: "Teko", sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 20px;
+}
+
+.instaLogo:hover {
+  transform: scale(1.2);
+}
+
+.footer {
+  font-family: "Inter", sans-serif !important;
+}
+
 @media (max-width: 800px) {
   .footer {
     flex-direction: column;

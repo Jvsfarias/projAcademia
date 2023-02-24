@@ -106,7 +106,13 @@ export default function NavBar() {
           transition={{ duration: 0.6 }}
         >
           <WhatsAppIcon className="iconNav" />
-          <Link to="/" spy={true} smooth={true} offset={-100} duration={500}>
+          <Link
+            to="footerContact"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
             CONTATO
           </Link>
         </motion.li>
