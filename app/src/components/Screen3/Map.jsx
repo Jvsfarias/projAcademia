@@ -4,7 +4,7 @@ import "./map.css";
 export default function Map() {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: "AIzaSyCtSxHJwEcb35gy-zZkAdQxhDjghet5HPo",
+    googleMapsApiKey: import.meta.env.VITE_GOOGLE_TOKEN,
   });
 
   const position = {
