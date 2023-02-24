@@ -1,0 +1,15 @@
+@media (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+  }
+  .teste {
+    align-items: center;
+  }
+  .containerContatos {
+    font-size: 14px;
+    align-items: center;
+  }
+  .containerContatos h1 {
+    font-size: 24px;
+  }
+}

@@ -1,4 +1,4 @@
-import "./ScreenFour.css";
+import "./screenFour.css";
 import Card from "./Card";
 import img1 from "../../assets/fotoCard1.jpg";
 import img2 from "../../assets/fotoCard2.jpg";
@@ -26,7 +26,7 @@ export default function ScreenFour() {
     precoMensal: "R$70,00",
   };
   return (
-    <div className="py-[100px]">
+    <div className="py-[100px]" id="planos">
       <div className="flex w-[80%] justify-center mx-auto mb-20 items-center">
         <div className="w-[22vw] h-[1px] border-[1px] border-black"> </div>
         <h1 className="flex gap-3">

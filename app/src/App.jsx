@@ -4,6 +4,7 @@ import WhatsButton from "./components/NavBar/WhatsButton";
 import ScreenTwo from "./components/Screen2/ScreenTwo";
 import ScreenTree from "./components/Screen3/ScreenTree";
 import ScreenFour from "./components/Screen4/ScreenFour";
+import Footer from "./components/Screen5/Footer";
 import NavBar from "./components/NavBar/NavBar";
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
       <ScreenTwo />
       <ScreenTree />
       <ScreenFour />
+      <Footer />
     </div>
   );
 }

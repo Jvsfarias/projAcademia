@@ -7,6 +7,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +38,15 @@ export default function NavBar() {
           transition={{ duration: 0.2 }}
         >
           <HomeIcon className="iconNav" />
-          <a href="#">INICIO</a>
+          <Link
+            to="homePage"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            INICIO
+          </Link>
         </motion.li>
 
         <motion.li
@@ -46,7 +55,15 @@ export default function NavBar() {
           transition={{ duration: 0.3 }}
         >
           <FitnessCenterIcon className="iconNav" />
-          <a href="#">PLANOS</a>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            SOBRE
+          </Link>
         </motion.li>
 
         <motion.li
@@ -55,7 +72,15 @@ export default function NavBar() {
           transition={{ duration: 0.4 }}
         >
           <LocationOnIcon className="iconNav" />
-          <a href="#">LOCALIZAÇÃO</a>
+          <Link
+            to="location"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            LOCALIZAÇÃO
+          </Link>
         </motion.li>
 
         <motion.li
@@ -64,7 +89,15 @@ export default function NavBar() {
           transition={{ duration: 0.5 }}
         >
           <SchoolIcon className="iconNav" />
-          <a href="#">SOBRE</a>
+          <Link
+            to="planos"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+          >
+            PLANOS
+          </Link>
         </motion.li>
 
         <motion.li
@@ -73,7 +106,9 @@ export default function NavBar() {
           transition={{ duration: 0.6 }}
         >
           <WhatsAppIcon className="iconNav" />
-          <a href="#">CONTATO</a>
+          <Link to="/" spy={true} smooth={true} offset={-100} duration={500}>
+            CONTATO
+          </Link>
         </motion.li>
 
         <motion.li
@@ -81,9 +116,16 @@ export default function NavBar() {
           animate={{ y: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <a href="#" className="aulaGratis">
-            AULA GRATIS
-          </a>
+          <Link
+            to="/"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={500}
+            className="aulaGratis"
+          >
+            AULA EXPERIMENTAL
+          </Link>
         </motion.li>
       </ul>
     </div>

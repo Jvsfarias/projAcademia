@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Card.css";
+import "./card.css";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 
@@ -15,7 +15,9 @@ export default function Teste({ tipo, imagem, texto, preco }) {
       <img src={imagem} alt="foto" className="foto brightness-110" />
       <div className="paragrafoPrincipal m-4 flex items-center gap-[100px]">
         <FitnessCenterIcon fontSize="medium" />
-        <p className="text-xl ">{preco}</p>
+        <p className="text-xl ">
+          {preco}/<span className="text-sm">Média</span>
+        </p>
         <ExpandMoreIcon
           fontSize="large"
           className="iconArrow"
