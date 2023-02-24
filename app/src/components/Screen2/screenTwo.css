@@ -1,6 +1,9 @@
+.secondSection {
+  background-color: red;
+}
+
 @media (max-width: 900px) {
   .secondSection {
-    display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
