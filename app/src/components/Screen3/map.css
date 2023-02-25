@@ -1,7 +1,3 @@
-.map {
-  height: 50vh;
-  width: 50vw;
-}
 
 @media (max-width: 950px) {
   .map {

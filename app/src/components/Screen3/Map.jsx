@@ -15,7 +15,7 @@ export default function Map() {
   return (
     <div className="mapinha border-solid border-orangeProject border-4">
       {isLoaded ? (
-        <GoogleMap mapContainerClassName="map" center={position} zoom={16}>
+        <GoogleMap mapContainerClassName="map w-[50vw] h-[50vh]" center={position} zoom={16}>
           <Marker position={position} />
         </GoogleMap>
       ) : (
