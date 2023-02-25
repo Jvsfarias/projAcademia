@@ -1,6 +1,7 @@
 # Construção de um WebSite para uma academia
 
 Esse projeto foi desenvolvido a fim de pôr em prática meus conhecimentos acerca do Front-End com a utilização da library React.
+
 Você pode visualizar o projeto aqui: https://proj-academia.vercel.app/
 
 Foi utilizado para a construção do mesmo:
