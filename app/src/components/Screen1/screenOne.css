@@ -19,7 +19,7 @@
 }
 
 .imagem {
-  background-image: url("../../assets/background-academia.jpg");
+  background-image: url("../../assets/background-academia.webp");
   background-size: cover;
   filter: brightness(0.3);
   background-repeat: no-repeat;

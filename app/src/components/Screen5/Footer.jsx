@@ -1,6 +1,6 @@
 import "./footer.css";
-import logo from "../../assets/atlantePng.png";
-import insta from "../../assets/instagram-logo.png";
+import logo from "../../assets/atlantePng.webp";
+import insta from "../../assets/instagram-logo.webp";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";

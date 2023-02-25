@@ -1,5 +1,5 @@
 //import "./screenTwo.css";
-import aboutImg from "../../assets/homemForte.png";
+import aboutImg from "../../assets/homemForte.webp";
 export default function ScreenTwo() {
   return (
     <div

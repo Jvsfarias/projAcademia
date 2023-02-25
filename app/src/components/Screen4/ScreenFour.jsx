@@ -1,8 +1,8 @@
 import "./screenFour.css";
 import Card from "./Card";
-import img1 from "../../assets/fotoCard1.jpg";
-import img2 from "../../assets/fotoCard2.jpg";
-import img3 from "../../assets/fotoCard3.jpg";
+import img1 from "../../assets/fotoCard1.webp";
+import img2 from "../../assets/fotoCard2.webp";
+import img3 from "../../assets/fotoCard3.webp";
 
 export default function ScreenFour() {
   const tipo = {

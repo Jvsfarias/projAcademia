@@ -1,4 +1,4 @@
-import whatsIcon from "../.././assets/whatsicon.png";
+import whatsIcon from "../.././assets/whatsicon.webp";
 import "./whats.css";
 export default function WhatsButton() {
   return (

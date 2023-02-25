@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import logo from "../../assets/atlantePng.png";
+import logo from "../../assets/atlantePng.webp";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import HomeIcon from "@mui/icons-material/Home";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
@@ -14,14 +14,20 @@ export default function NavBar() {
 
   return (
     <div className="box nav">
+      <Link to="homePage"
+            spy={true}
+            smooth={true}
+            offset={-100}
+            duration={800}>
       <motion.img
         src={logo}
         alt="Logo"
-        className="logo"
+        className="logo cursor-pointer"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
-      />
+      /></Link>
+      
 
       <div className="menu-btn">
         <i className="fa fa-bars fa-2x" onClick={() => setIsOpen(!isOpen)}></i>
@@ -43,7 +49,7 @@ export default function NavBar() {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
+            duration={800}
           >
             INICIO
           </Link>
@@ -60,7 +66,7 @@ export default function NavBar() {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
+            duration={800}
           >
             SOBRE
           </Link>
@@ -77,7 +83,7 @@ export default function NavBar() {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
+            duration={800}
           >
             LOCALIZAÇÃO
           </Link>
@@ -94,7 +100,7 @@ export default function NavBar() {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
+            duration={800}
           >
             PLANOS
           </Link>
@@ -110,8 +116,8 @@ export default function NavBar() {
             to="footerContact"
             spy={true}
             smooth={true}
-            offset={-100}
-            duration={500}
+            offset={-10}
+            duration={800}
           >
             CONTATO
           </Link>
@@ -127,7 +133,7 @@ export default function NavBar() {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500}
+            duration={800}
             className="aulaGratis"
           >
             AULA EXPERIMENTAL
