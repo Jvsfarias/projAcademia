@@ -2,7 +2,7 @@
 
 Esse projeto foi desenvolvido a fim de pôr em prática meus conhecimentos acerca do Front-End com a utilização da library React.
 
-Você pode visualizar o projeto aqui (se possível, testar em um dispositivo móvel além do desktop): <a href="https://proj-academia.vercel.app" target="_blank">Projeto</a>
+Você pode visualizar o projeto aqui (se possível, testar em um dispositivo móvel além do desktop): <a href="https://proj-academia.vercel.app" target="_blank">------Link do Projeto------</a>
 
 Foi utilizado para a construção do mesmo:
 - Vite (por ser um gerador de estrutura de código muito rápido)
