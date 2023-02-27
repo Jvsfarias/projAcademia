@@ -50,6 +50,7 @@ export default function NavBar() {
             smooth={true}
             offset={-100}
             duration={800}
+            onClick={() => setIsOpen(!isOpen)}
           >
             INICIO
           </Link>
@@ -67,6 +68,7 @@ export default function NavBar() {
             smooth={true}
             offset={-100}
             duration={800}
+            onClick={() => setIsOpen(!isOpen)}
           >
             SOBRE
           </Link>
@@ -84,6 +86,7 @@ export default function NavBar() {
             smooth={true}
             offset={-100}
             duration={800}
+            onClick={() => setIsOpen(!isOpen)}
           >
             LOCALIZAÇÃO
           </Link>
@@ -101,6 +104,7 @@ export default function NavBar() {
             smooth={true}
             offset={-100}
             duration={800}
+            onClick={() => setIsOpen(!isOpen)}
           >
             PLANOS
           </Link>
@@ -118,6 +122,7 @@ export default function NavBar() {
             smooth={true}
             offset={-10}
             duration={800}
+            onClick={() => setIsOpen(!isOpen)}
           >
             CONTATO
           </Link>
