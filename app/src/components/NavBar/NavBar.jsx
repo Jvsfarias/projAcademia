@@ -14,20 +14,16 @@ export default function NavBar() {
 
   return (
     <div className="box nav">
-      <Link to="homePage"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={800}>
-      <motion.img
-        src={logo}
-        alt="Logo"
-        className="logo cursor-pointer"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-      /></Link>
-      
+      <Link to="homePage" spy={true} smooth={true} offset={-100} duration={800}>
+        <motion.img
+          src={logo}
+          alt="Logo"
+          className="logo cursor-pointer"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+        />
+      </Link>
 
       <div className="menu-btn">
         <i className="fa fa-bars fa-2x" onClick={() => setIsOpen(!isOpen)}></i>
@@ -125,23 +121,6 @@ export default function NavBar() {
             onClick={() => setIsOpen(!isOpen)}
           >
             CONTATO
-          </Link>
-        </motion.li>
-
-        <motion.li
-          initial={{ y: "-110%" }}
-          animate={{ y: 0 }}
-          transition={{ duration: 0.7 }}
-        >
-          <Link
-            to="/"
-            spy={true}
-            smooth={true}
-            offset={-100}
-            duration={800}
-            className="aulaGratis"
-          >
-            AULA EXPERIMENTAL
           </Link>
         </motion.li>
       </ul>

@@ -25,7 +25,7 @@ export default function Teste({ tipo, imagem, texto, preco }) {
         />
       </div>
 
-      {isOpen && <p className="mx-4 pb-4">{texto}</p>}
+      {isOpen && <p className="mx-4 pb-4 text-[14px]">{texto}</p>}
     </div>
   );
 }

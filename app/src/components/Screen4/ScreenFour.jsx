@@ -6,23 +6,23 @@ import img3 from "../../assets/fotoCard3.webp";
 
 export default function ScreenFour() {
   const tipo = {
-    anual: "ANUAL",
     trimestral: "TRIMESTRAL",
+    bimestral: "BIMESTRAL",
     mensal: "MENSAL",
   };
 
   const textos = {
-    textoAnual:
-      "ANUAL ipsum dolor sit amet consectetur, adipisicing elit. Doloremque odio molestias ad ex aliquam laboriosam molestiae soluta unde at, magni quibusdam nisi harum delectus vitae nesciunt, sequi, aspernatur ut neque.",
     textoTrimestral:
-      "TRIMESTRALrem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque odio molestias ad ex aliquam laboriosam molestiae soluta unde at, magni quibusdam nisi harum delectus vitae nesciunt, sequi, aspernatur ut neque.",
+      "(O mais vantajoso) No plano trimestral o aluno realiza o pagamento de R$180,00 (podendo ser parcelado no cartão, com adicional apenas da maquineta), passando a ter direito sobre os benefícios da academia durante 3 meses. Ao escolher esse plano, o aluno economiza 30 reais comparado ao plano mensal!",
+    textoBimestral:
+      "No plano bimestral o aluno realiza o pagamento de R$130,00 (podendo ser parcelado no cartão, com adicional apenas da maquineta), passando a ter direito sobre os benefícios da academia durante 2 meses. Ao escolher esse plano, o aluno economiza 10 reais comparado ao plano mensal!",
     textoMensal:
-      "MENSAL ipsum dolor sit amet consectetur, adipisicing elit. Doloremque odio molestias ad ex aliquam laboriosam molestiae soluta unde at, magni quibusdam nisi harum delectus vitae nesciunt, sequi, aspernatur ut neque.",
+      "No plano semestral o aluno realiza o pagamento de R$70,00 (com adicional de R$5,00 da maquineta caso o pagamento seja através do cartão), passando a ter direito sobre os benefícios da academia durante 1 mês.",
   };
 
   const preco = {
-    precoAnual: "R$60,00",
-    precoTrimestral: "R$65,00",
+    precoTrimestral: "R$60,00",
+    precoBimestral: "R$65,00",
     precoMensal: "R$70,00",
   };
   return (
@@ -37,16 +37,16 @@ export default function ScreenFour() {
       </div>
       <div className="cards flex items-start justify-center gap-7">
         <Card
-          tipo={tipo.anual}
-          imagem={img1}
-          texto={textos.textoAnual}
-          preco={preco.precoAnual}
-        />
-        <Card
           tipo={tipo.trimestral}
-          imagem={img2}
+          imagem={img1}
           texto={textos.textoTrimestral}
           preco={preco.precoTrimestral}
+        />
+        <Card
+          tipo={tipo.bimestral}
+          imagem={img2}
+          texto={textos.textoBimestral}
+          preco={preco.precoBimestral}
         />
         <Card
           tipo={tipo.mensal}
@@ -56,11 +56,15 @@ export default function ScreenFour() {
         />
       </div>
 
-      <div className="observacoes  w-[80%] mx-auto max-w-[1100px]  text-[17px] mt-14 text-center text-black">
-        <p>
-          *Todos os planos, incluem as atividades de Musculação, FitDance, e
-          aulas de Step!
-        </p>
+      <div className="observacoes w-[80%] mx-auto max-w-[1100px]  text-[14px] mt-14 text-center text-black">
+        <p>*Todos os planos, incluem as atividades de Musculação e FitDance.</p>
+        <div className="flex justify-center gap-2 mt-3">
+          <p>*As aulas de FitDance ocorrem nas terças e quintas:</p>
+          <div>
+            <p>Manhã: 07:30 as 08:30</p>
+            <p>Noite: 19:30 as 20:30</p>
+          </div>
+        </div>
       </div>
     </div>
   );

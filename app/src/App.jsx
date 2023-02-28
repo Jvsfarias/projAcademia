@@ -12,7 +12,6 @@ export default function App() {
   return (
     <div className="app">
       <NavBar />
-      <WhatsButton />
       <ScreenOne />
       <ScreenTwo />
       <ScreenTree />

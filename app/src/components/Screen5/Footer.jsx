@@ -29,21 +29,14 @@ export default function Footer() {
         <h1 className="telephone font-bold">CONTATOS:</h1>
         <div className="flex gap-2">
           <LocalPhoneIcon />
-          <h2>(83)0000-0000</h2>
-          <h2>(83)0000-0000</h2>
-        </div>
-
-        <div className="whatsApp flex gap-2">
-          <WhatsAppIcon />
-          <h2>(83)90000-0000</h2>
-          <h2>(83)90000-0000</h2>
+          <h2>(83)3337-4619</h2>
         </div>
 
         <div className="horarios flex gap-2 items-start">
           <AccessTimeIcon />
           <div className="teste flex flex-col gap-2">
-            <h2>Segunda a sexta - Das 06:00 - 12:00 || 14:00 - 22:00</h2>
-            <h2>Sabados - Das 06:00 - 12:00</h2>
+            <h2>Segunda a sexta - Das 06:00 - 11:00 || 14:00 - 22:00</h2>
+            <h2>Sabados - Das 09:00 - 12:00</h2>
             <h2>Domingos - Fechada</h2>
             <h2>Feriados - Fechada</h2>
           </div>

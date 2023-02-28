@@ -7,7 +7,7 @@ export default function LastFooter() {
         {"  "}
         <span className="underline text-cyan-500">
           <a href="https://github.com/Jvsfarias" target="_blank">
-            Jvsfarias
+            JVSFARIAS
           </a>
         </span>
       </h1>
