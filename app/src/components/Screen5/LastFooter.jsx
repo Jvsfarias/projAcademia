@@ -6,7 +6,11 @@ export default function LastFooter() {
         © 2023 ACADEMIA ATLANTE- TODOS OS DIREITOS RESERVADOS | DESENVOLVIDO POR
         {"  "}
         <span className="underline text-cyan-500">
-          <a href="https://github.com/Jvsfarias" target="_blank">
+          <a
+            href="https://github.com/Jvsfarias"
+            target="_blank"
+            className="lastFooter"
+          >
             JVSFARIAS
           </a>
         </span>

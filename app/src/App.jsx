@@ -1,6 +1,6 @@
 import "./App.css";
 import ScreenOne from "./components/Screen1/ScreenOne";
-import WhatsButton from "./components/NavBar/WhatsButton";
+import InstaButton from "./components/NavBar/InstaButton";
 import ScreenTwo from "./components/Screen2/ScreenTwo";
 import ScreenTree from "./components/Screen3/ScreenTree";
 import ScreenFour from "./components/Screen4/ScreenFour";
@@ -18,6 +18,7 @@ export default function App() {
       <ScreenFour />
       <Footer />
       <LastFooter />
+      <InstaButton />
     </div>
   );
 }

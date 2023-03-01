@@ -29,7 +29,7 @@ export default function Footer() {
         <h1 className="telephone font-bold">CONTATOS:</h1>
         <div className="flex gap-2">
           <LocalPhoneIcon />
-          <h2>(83)3337-4619</h2>
+          <h2>(83) 3337-4619</h2>
         </div>
 
         <div className="horarios flex gap-2 items-start">
