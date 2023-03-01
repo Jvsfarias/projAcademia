@@ -56,11 +56,11 @@ export default function ScreenFour() {
         />
       </div>
 
-      <div className="observacoes w-[80%] mx-auto max-w-[1100px]  text-[14px] mt-14 text-center text-black">
+      <div className="italic  observacoes w-[80%] mx-auto max-w-[1100px]  text-[14px] mt-14 text-center text-black">
         <p>*Todos os planos, incluem as atividades de Musculação e FitDance.</p>
         <div className="flex justify-center gap-2 mt-3">
           <p>*As aulas de FitDance ocorrem nas terças e quintas:</p>
-          <div>
+          <div className="font-bold ">
             <p>Manhã: 07:30 as 08:30</p>
             <p>Noite: 19:30 as 20:30</p>
           </div>

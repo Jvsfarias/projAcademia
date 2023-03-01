@@ -1,4 +1,4 @@
-import insta from "../.././assets/logoInsta.png";
+import insta from "../.././assets/logoInsta.webp";
 import "./insta.css";
 export default function InstaButton() {
   return (
