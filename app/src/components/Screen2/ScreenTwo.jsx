@@ -11,7 +11,7 @@ export default function ScreenTwo() {
         <h1 className="font-black text-4xl text-orangeProject tracking-wider">
           QUEM SOMOS?
         </h1>
-        <p className="mt-6 text-grayText text-lg">
+        <p className="font-bold mt-6 text-grayText text-lg">
           Somos uma academia tradicional localizada no bairro do Catolé com mais
           de 20 anos no mercado, sempre trabalhando para criar relacionamentos
           mais próximos com nossos alunos e fazer da nossa academia uma extensão

@@ -3,17 +3,21 @@ import Card from "./Card";
 import img1 from "../../assets/fotoCard1.webp";
 import img2 from "../../assets/fotoCard2.webp";
 import img3 from "../../assets/fotoCard3.webp";
+import img4 from "../../assets/img4.webp";
 
 export default function ScreenFour() {
   const tipo = {
+    semestral: "SEMESTRAL",
     trimestral: "TRIMESTRAL",
     bimestral: "BIMESTRAL",
     mensal: "MENSAL",
   };
 
   const textos = {
+    textoSemestral:
+      "No plano semestral o aluno realiza o pagamento de R$300,00 (podendo ser parcelado no cartão, com adicional apenas da maquineta), passando a ter direito sobre os benefícios da academia durante 6 meses. Ao escolher esse plano, o aluno economiza 120 reais comparado ao plano mensal!",
     textoTrimestral:
-      "(O mais vantajoso) No plano trimestral o aluno realiza o pagamento de R$180,00 (podendo ser parcelado no cartão, com adicional apenas da maquineta), passando a ter direito sobre os benefícios da academia durante 3 meses. Ao escolher esse plano, o aluno economiza 30 reais comparado ao plano mensal!",
+      "(O mais adquirido) No plano trimestral o aluno realiza o pagamento de R$180,00 (podendo ser parcelado no cartão, com adicional apenas da maquineta), passando a ter direito sobre os benefícios da academia durante 3 meses. Ao escolher esse plano, o aluno economiza 30 reais comparado ao plano mensal!",
     textoBimestral:
       "No plano bimestral o aluno realiza o pagamento de R$130,00 (podendo ser parcelado no cartão, com adicional apenas da maquineta), passando a ter direito sobre os benefícios da academia durante 2 meses. Ao escolher esse plano, o aluno economiza 10 reais comparado ao plano mensal!",
     textoMensal:
@@ -21,6 +25,7 @@ export default function ScreenFour() {
   };
 
   const preco = {
+    precoSemestral: "R$50,00",
     precoTrimestral: "R$60,00",
     precoBimestral: "R$65,00",
     precoMensal: "R$70,00",
@@ -36,6 +41,12 @@ export default function ScreenFour() {
         <div className="w-[22vw] h-[1px] border-[1px] border-black"> </div>
       </div>
       <div className="cards flex items-start justify-center gap-7">
+        <Card
+          tipo={tipo.semestral}
+          imagem={img4}
+          texto={textos.textoSemestral}
+          preco={preco.precoSemestral}
+        />
         <Card
           tipo={tipo.trimestral}
           imagem={img1}
@@ -62,7 +73,7 @@ export default function ScreenFour() {
           <p>*As aulas de FitDance ocorrem nas terças e quintas:</p>
           <div className="font-bold ">
             <p>Manhã: 07:30 as 08:30</p>
-            <p>Noite: 19:30 as 20:30</p>
+            <p>Noite: 19:00 as 20:00</p>
           </div>
         </div>
       </div>
